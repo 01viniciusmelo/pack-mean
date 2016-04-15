@@ -1,0 +1,62 @@
+---
+layout: "docs_api"
+version: "unstable"
+versionHref: "/docs/unstable"
+path: "api/directive/faApp/"
+title: "fa-app"
+header_sub_title: "Directive in module famous.angular"
+doc: "faApp"
+docType: "directive"
+---
+
+<div class="improve-docs">
+  <a href='https://github.com/Famous/famous-angular/edit/master/src/scripts/directives/fa-app.js#L1'>
+    Improve this doc
+  </a>
+</div>
+
+
+
+
+<h1 class="api-title">
+
+  fa-app
+
+
+
+</h1>
+
+
+
+
+
+This directive is the container and entry point to Famo.us/Angular.  Behind the scenes,
+it creates a Famous context and then adds child elements
+to that context as they get compiled.  Inside of this directive,
+normal HTML content will not get rendered to the screen unless
+it is inside of a <a href="api/directive/faSurface">fa-surface</a> directive.
+
+
+
+
+
+
+
+
+  
+<h2 id="usage">Usage</h2>
+  
+```html
+<fa-app ng-controller="MyCtrl">
+  <!-- other fa- scene graph components -->
+</fa-app>
+```
+  
+  
+
+  
+
+
+
+
+
